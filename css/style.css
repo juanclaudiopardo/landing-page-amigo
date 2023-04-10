@@ -5,7 +5,7 @@ Author : Ngetemplates
 /* ------------------------------
   Import Google Web Font
 ---------------------------------*/
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900");
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
 /* ------------------------------
   General
 ---------------------------------*/
@@ -144,7 +144,7 @@ img {
   navbar
 ---------------------------------*/
 .navbar {
-  background: #0921fb;
+  background: #ffffff;
   padding: 25px 0;
   position: fixed;
   width: 100%;
@@ -152,8 +152,8 @@ img {
   text-align: center;
 }
 .navbar .navbar-brand img {
-  height: 42px;
-  width: auto;
+  height: 20.13px;
+  width: 118.03px;
 }
 .navbar .navbar-brand:hover {
   color: #0a0a0a;
@@ -163,7 +163,7 @@ img {
 }
 .navbar .navbar-toggler i {
   font-size: 32px;
-  color: #fff;
+  color: #ed6948;
 }
 .navbar .navbar-toggler:focus {
   box-shadow: none;
@@ -178,10 +178,13 @@ img {
   padding: 0 10px;
 }
 .navbar .navbar-nav li a {
-  color: #ffffff;
+  color: #5a5a5a;
 }
 .navbar .navbar-nav li a:hover {
-  color: #f5ad2c;
+  color: #ed6948;
+}
+.navbar .navbar-nav li a:focus {
+  color: #ed6948;
 }
 .navbar .navbar-nav li .button {
   color: #fff;
@@ -206,7 +209,8 @@ img {
 }
 
 .navbar-fixed {
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
+    0 3px 1px -2px rgba(0, 0, 0, 0);
 }
 
 /* ------------------------------
@@ -224,9 +228,13 @@ img {
   intro
 ---------------------------------*/
 .intro {
-  background: #0921fb;
+  /* background: #0921fb; */
   padding: 175px 0 310px;
   text-align: center;
+  background-image: url('../img/Bg-intro.svg') !important;
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center bottom;
 }
 .intro p {
   color: #ffffff;
@@ -236,7 +244,7 @@ img {
 
 .intro-image {
   padding: 0 16%;
-  margin: -215px 0 0 0;
+  margin: -200px 0 0 0;
 }
 .intro-image img {
   padding: 0 5px;
@@ -319,7 +327,11 @@ img {
   download
 ---------------------------------*/
 .download {
-  background: #0921fb;
+  /* background: #0921fb; */
+  background-image: url('../img/Bg-download.svg') !important;
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center bottom;
   height: 426px;
   color: #ffffff;
 }
@@ -371,7 +383,7 @@ img {
 .cta .content {
   padding: 30px 40px 15px;
   color: #fff;
-  background: #0921fb;
+  background: #c34424;
   border-radius: 15px;
 }
 .cta .content h2 {
