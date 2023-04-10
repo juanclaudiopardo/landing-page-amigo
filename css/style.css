@@ -14,7 +14,7 @@ body {
   padding: 0;
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
-  background: #ffffff;
+  background: #fff8ef;
   color: #92949a;
 }
 
@@ -234,8 +234,8 @@ img {
   background-repeat: repeat;
   background-size: cover;
   background-position: center bottom;
-  border-bottom-left-radius: 143px;
-  border-bottom-right-radius: 143px;
+  /* border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px; */
 }
 .intro p {
   color: #ffffff;
@@ -361,7 +361,8 @@ img {
 }
 .download .image2 {
   position: relative;
-  bottom: -65px;
+  bottom: 65px;
+  right: 200px;
   padding-left: 10px;
 }
 
@@ -369,10 +370,10 @@ img {
   faq	
 ---------------------------------*/
 .faq {
-  padding: 160px 0 100px;
+  padding: 290px 0 100px;
 }
 .faq h2 {
-  text-align: center;
+  /* text-align: center; */
 }
 .faq .top-row {
   margin-top: 30px;
@@ -381,6 +382,9 @@ img {
 /* ------------------------------
   cta
 ---------------------------------*/
+.cta {
+  padding-bottom: 100px;
+}
 .cta .content {
   padding: 30px 40px 15px;
   color: #fff;
@@ -467,7 +471,17 @@ footer ul li a {
 /* ------------------------------
   responsive
 ---------------------------------*/
-
+@media (max-width: 990px) {
+  .faq {
+    padding: 80px 0 100px;
+  }
+  .download .image2 {
+    position: relative;
+    bottom: -65px;
+    right: 0px;
+    padding-left: 10px;
+  }
+}
 @media (max-width: 768px) {
   .navbar .button-navbar {
     width: 50%;
@@ -497,6 +511,10 @@ footer ul li a {
   .download ul li {
     margin-right: 6px;
   }
+
+  /* .faq {
+    padding: 100px 0 100px;
+  } */
 }
 @media (max-width: 576px) {
   .container {
@@ -534,7 +552,7 @@ footer ul li a {
   }
 
   .faq {
-    margin-top: 500px;
+    margin-top: 200px;
   }
 
   .cta .entry {
