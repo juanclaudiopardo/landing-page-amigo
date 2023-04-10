@@ -228,13 +228,14 @@ img {
   intro
 ---------------------------------*/
 .intro {
-  /* background: #0921fb; */
   padding: 175px 0 310px;
   text-align: center;
   background-image: url('../img/Bg-intro.svg') !important;
   background-repeat: repeat;
   background-size: cover;
   background-position: center bottom;
+  border-bottom-left-radius: 143px;
+  border-bottom-right-radius: 143px;
 }
 .intro p {
   color: #ffffff;
@@ -466,6 +467,7 @@ footer ul li a {
 /* ------------------------------
   responsive
 ---------------------------------*/
+
 @media (max-width: 768px) {
   .navbar .button-navbar {
     width: 50%;
