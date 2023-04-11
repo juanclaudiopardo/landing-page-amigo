@@ -601,6 +601,19 @@ footer ul li a {
     text-align: center;
     padding: 0px;
   }
+  .features .content .icon {
+    display: none;
+  }
+  .features h5,
+  .features02 h5,
+  .faq h5,
+  .features p,
+  .features02 p,
+  .faq p {
+    text-align: center;
+    line-height: 21px;
+  }
+
   .features02 .content-image {
     text-align: center;
     padding: 0px;
@@ -615,10 +628,12 @@ footer ul li a {
     margin-top: 115px;
   }
   .download h2:first-of-type {
-    margin-top: 50px;
+    margin-top: 60px !important;
   }
-  .download h2 {
+  .download h2,
+  .download p {
     line-height: 30px;
+    text-align: center;
   }
   .download ul {
     text-align: center;
@@ -635,9 +650,17 @@ footer ul li a {
   }
 
   .cta .entry {
-    text-align: left;
+    text-align: center;
     margin-top: 20px;
     margin-bottom: 30px;
+  }
+  .cta h2,
+  .cta p {
+    text-align: center;
+    line-height: 25px;
+  }
+  .cta button:first-of-type {
+    margin-bottom: 15px;
   }
 
   footer ul {
