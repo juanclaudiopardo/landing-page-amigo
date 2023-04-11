@@ -541,6 +541,9 @@ footer ul li a {
     right: -62px;
     position: relative;
   }
+  .navbar .navbar-brand img {
+    height: 20px;
+  }
 
   .intro-image {
     padding: 0 8%;
@@ -605,12 +608,14 @@ footer ul li a {
     display: none;
   }
   .features h5,
-  .features02 h5,
   .faq h5,
   .features p,
-  .features02 p,
   .faq p {
     text-align: center;
+    line-height: 21px;
+  }
+  .features2 h5,
+  .features2 p {
     line-height: 21px;
   }
 
@@ -630,8 +635,12 @@ footer ul li a {
   .download h2:first-of-type {
     margin-top: 60px !important;
   }
-  .download h2,
+
   .download p {
+    line-height: 21px;
+    text-align: center;
+  }
+  .download h2 {
     line-height: 30px;
     text-align: center;
   }
