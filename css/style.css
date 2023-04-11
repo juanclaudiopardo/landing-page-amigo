@@ -155,8 +155,7 @@ img {
   text-align: center;
 }
 .navbar .navbar-brand img {
-  height: 20.13px;
-  width: 118.03px;
+  height: 30px;
 }
 .navbar .navbar-brand:hover {
   color: #0a0a0a;
@@ -392,7 +391,7 @@ img {
 }
 .download .image2 {
   position: relative;
-  bottom: 65px;
+  bottom: 80px;
   right: 200px;
   /* padding-left: 10px; */
 }
@@ -528,8 +527,8 @@ footer ul li a {
 
   .navbar .navbar-collapse {
     position: absolute;
-    top: 100px;
-    background: #0921fb;
+    top: 89px;
+    background: #fff;
     width: 100%;
     right: 0;
     padding: 0 30px 30px;
@@ -560,13 +559,25 @@ footer ul li a {
     padding: 0 20px;
   }
 
+  .navbar .navbar-brand img {
+    height: 24px;
+  }
+
   .intro p {
     padding: 0 15px;
   }
 
   h1 {
-    font-size: 36px;
-    line-height: 48px;
+    font-size: 24px;
+    /* line-height: 20px; */
+  }
+  h2 {
+    font-size: 22px;
+    /* line-height: 20px; */
+  }
+  h3 {
+    font-size: 20px;
+    text-align: center;
   }
 
   .navbar .button-navbar {
@@ -586,12 +597,41 @@ footer ul li a {
     display: none;
   }
 
+  .features .content-image {
+    text-align: center;
+    padding: 0px;
+  }
+  .features02 .content-image {
+    text-align: center;
+    padding: 0px;
+  }
+  .features02 .content i {
+    display: none;
+  }
+  .download {
+    margin-top: 0px;
+  }
   .download .col-second {
     margin-top: 115px;
   }
+  .download h2:first-of-type {
+    margin-top: 50px;
+  }
+  .download h2 {
+    line-height: 30px;
+  }
+  .download ul {
+    text-align: center;
+  }
+  .download button:first-of-type {
+    margin-bottom: 15px;
+  }
+  .download .image2 {
+    display: none;
+  }
 
-  .faq {
-    margin-top: 200px;
+  .faq h2 {
+    text-align: center;
   }
 
   .cta .entry {
@@ -614,7 +654,10 @@ footer ul li a {
   }
 
   footer {
-    padding: 100px 0 0 0;
+    padding: 60px 0 0 0;
+  }
+  footer img {
+    height: 100px;
   }
 }
 @media (max-width: 360px) {
