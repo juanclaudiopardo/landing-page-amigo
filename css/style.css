@@ -5,6 +5,7 @@ Author : Ngetemplates
 /* ------------------------------
   Import Google Web Font
 ---------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&');
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
 /* ------------------------------
   General
@@ -13,7 +14,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   background: #fff8ef;
   color: #92949a;
 }
@@ -24,7 +25,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   padding: 0;
   margin: 0;
   color: #0a0a0a;
@@ -138,9 +139,9 @@ img {
 }
 
 .button:hover {
-  background: #c34424;
+  background: #2b2b2b;
   color: #ffffff;
-  border-color: #c34424;
+  border-color: #2b2b2b;
 }
 
 /* ------------------------------
@@ -155,7 +156,7 @@ img {
   text-align: center;
 }
 .navbar .navbar-brand img {
-  height: 30px;
+  height: 50px;
 }
 .navbar .navbar-brand:hover {
   color: #0a0a0a;
@@ -304,14 +305,12 @@ img {
   overflow: hidden;
 }
 .features .content-image {
-  /* background: url(../img/bgbox.png) right top no-repeat; */
-  background-size: 245px;
   text-align: right;
   padding-top: 45px;
   padding-right: 45px;
 }
 .features .content-image img {
-  width: 60%;
+  width: 80%;
 }
 
 .features02 {
@@ -519,6 +518,9 @@ footer ul li a {
   .navbar .button-navbar {
     width: 75%;
   }
+  .navbar .navbar-brand img {
+    height: 28px;
+  }
 }
 @media (max-width: 768px) {
   /* .navbar .button-navbar {
@@ -541,9 +543,6 @@ footer ul li a {
     right: -62px;
     position: relative;
   }
-  .navbar .navbar-brand img {
-    height: 20px;
-  }
 
   .intro-image {
     padding: 0 8%;
@@ -563,7 +562,7 @@ footer ul li a {
   }
 
   .navbar .navbar-brand img {
-    height: 24px;
+    height: 28px;
   }
 
   .intro p {
@@ -593,7 +592,7 @@ footer ul li a {
   }
 
   .intro-image img {
-    padding: 0 50px;
+    padding: 0 20px;
   }
 
   .m-none {
